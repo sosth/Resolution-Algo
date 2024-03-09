@@ -47,9 +47,10 @@ In our program, I used Tkinter to create a graphical user interface. It includes
 Let's test the resolution solver with a specific example formula to observe how it determines the validity of the formula with the example formula {A v B}:
 
 # Usage 
-  <ol> <li>Clone the repository to your local machine: 
-              git clone https://github.com/sosth/resolution-solver.git
-  </li> 
+
+  1-Clone the repository to your local machine: 
+git clone https://github.com/your-username/resolution-solver.git
+ 
 
 
 
