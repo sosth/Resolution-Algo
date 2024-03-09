@@ -42,7 +42,7 @@ The parse_formula_input function is responsible for extracting clauses and liter
 # 4- User Friendy Interface: 
 In our program, I used Tkinter to create a graphical user interface. It includes entry fields for formula input, a submit button to trigger the resolution, and a label to display the result. Additionally, there's a button to switch between English and French languages.
 
-<img src="InvalidEx.JPG">
+<img src="interface.JPG">
 
 # Test The Algorithm
 
@@ -81,10 +81,11 @@ In the truth table above: When both A and B are False, the formula evaluates to 
             </tr>
         </table>
         
-
+<img src="validEx.JPG">
 
 I also did a test with an unvalid formula {A v B, ¬B, A} wixh follows the same process:
 
+<img src="InvalidEx.JPG">
 
 # Usage 
 
