@@ -53,7 +53,6 @@ The output given by the code after submitting this formula is <b>Valid</b>. To u
 <p><i><b>-Evaluating the Formula:</b></i> For each combination of truth values, we evaluate the formula {A v B}.</p>
 <p><i><b>-Determining the Result:</b></i> The result of the formula {A v B} depends on the truth values of A and B. The formula evaluates to True if at least one of A or B is True. Otherwise, it evaluates to False.</p>
 In the truth table above: When both A and B are False, the formula evaluates to False. When A is False and B is True, or when A is True and B is False, the formula evaluates to True. When both A and B are True, the formula evaluates to True.
-
     <table>
             <tr>
                 <th>A</th>
