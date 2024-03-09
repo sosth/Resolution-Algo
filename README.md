@@ -84,7 +84,7 @@ In the truth table above: When both A and B are False, the formula evaluates to 
         
 <img src="validEx.JPG">
 
-<p><b>2-I also did a test with an unvalid formula {A v B, ¬B, A} wixh follows the same process:</b></p>
+<p><b>2-I also did a test with an unvalid formula {A v B, ¬B, A} wich follows the same process:</b></p>
 
 <img src="InvalidEx.JPG">
 
