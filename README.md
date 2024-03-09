@@ -45,11 +45,19 @@ In our program, I used Tkinter to create a graphical user interface. It includes
 # Test The Algorithm
 
 Let's test the resolution solver with a specific example formula to observe how it determines the validity of the formula with the example formula {A v B}:
+![validEx](https://github.com/sosth/Resolution-Algo/assets/91484223/94749195-17cd-4bd3-8a7e-1eab0f680920)
+
+I also did a test with an unvalid formula {A v B, ¬B, A} wixh follows the same process:
+![InvalidEx](https://github.com/sosth/Resolution-Algo/assets/91484223/600fd9d2-740f-45b3-a790-0120aa7e7e04)
 
 # Usage 
 
-  1-Clone the repository to your local machine: 
-git clone https://github.com/your-username/resolution-solver.git
+<p>1-Clone the repository to your local machine.</p>
+<p>2-Navigate to the Project Directory.</p>
+<p>3-Run the Application.</p>
+<p>4-Input Formula: Enter a logical formula in the input field.</p>
+<p>5-Submit and Check: Click the "Submit" button to check the validity of the formula. The result will be displayed on the screen.</p>
+<p>6-Switch Languages: Use the "Switch Language" button to toggle between English and French for the user interface.</p>
  
 
 
