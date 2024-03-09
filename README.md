@@ -29,6 +29,7 @@ The parse_formula_input function is responsible for extracting clauses and liter
 
   # 3-Resolution Function (resolution):
   The resolution function implements the resolution algorithm to determine the validity of the input logical formula.
+  
   <b><i>Steps Involved:</i></b>
   <p><b>-Negation Conversion:</b> The function starts by converting the input formula F into its negated form. This is done by negating each literal within each clause.</p> 
   <p><b>-Conversion to Clause Form:</b> The negated formula is then converted into clause form, where each clause is represented as a list of integers.</p>
@@ -41,7 +42,7 @@ The parse_formula_input function is responsible for extracting clauses and liter
 # 4- User Friendy Interface: 
 In our program, I used Tkinter to create a graphical user interface. It includes entry fields for formula input, a submit button to trigger the resolution, and a label to display the result. Additionally, there's a button to switch between English and French languages.
 
-![interface](https://github.com/sosth/Resolution-Algo/assets/91484223/3d2e3a96-3c49-4b45-b606-7ce630a94d0f)
+
 
 # Test The Algorithm
 
@@ -80,10 +81,10 @@ In the truth table above: When both A and B are False, the formula evaluates to 
             </tr>
         </table>
         
-![validEx](https://github.com/sosth/Resolution-Algo/assets/91484223/94749195-17cd-4bd3-8a7e-1eab0f680920)
+
 
 I also did a test with an unvalid formula {A v B, ¬B, A} wixh follows the same process:
-![InvalidEx](https://github.com/sosth/Resolution-Algo/assets/91484223/600fd9d2-740f-45b3-a790-0120aa7e7e04)
+
 
 # Usage 
 
