@@ -80,6 +80,7 @@ In the truth table above: When both A and B are False, the formula evaluates to 
                 <td>True</td>
             </tr>
         </table>
+
         
 <img src="validEx.JPG">
 
