@@ -15,7 +15,7 @@ The program supports both English and French languages. Language strings are def
 The parse_formula_input function is responsible for extracting clauses and literals from the input formula string. It handles negation and converts literals to integers for processing.
 
 <b><i>Steps Involved:</i></b>
-  <p>-Input String Parsing: The function starts by parsing the input string using regular expressions to extract clauses enclosed within curly braces {}.</p>
+  <p><b>-Input String Parsing:</b> The function starts by parsing the input string using regular expressions to extract clauses enclosed within curly braces {}.</p>
 
   <p><b>-Clause Separation:</b> Once the clauses are extracted, the function splits them into individual clauses using the comma , as a delimiter.</p>
 
@@ -46,7 +46,7 @@ In our program, I used Tkinter to create a graphical user interface. It includes
 
 # Test The Algorithm
 
-<p>1-Let's test the resolution solver with a specific example formula to observe how it determines the validity of the formula with the example formula {A v B}:</p>
+<p><b>1-Let's test the resolution solver with a specific example formula to observe how it determines the validity of the formula with the example formula {A v B}:</b></p>
 The output given by the code after submitting this formula is <b>Valid</b>. To understand this result, I am going to use the truth table: 
 <p><i><b>-Truth Values of Variables:</b></i> We have two variables: A and B. Each variable can take on two truth values: True (T) or False (F).</p>
 <p><i><b>-Constructing the Truth Table:</b></i> We enumerate all possible combinations of truth values for variables A and B. There are 2^2 = 4 possible combinations.</p>
@@ -83,7 +83,7 @@ In the truth table above: When both A and B are False, the formula evaluates to 
         
 <img src="validEx.JPG">
 
-I also did a test with an unvalid formula {A v B, ¬B, A} wixh follows the same process:
+<p><b>2-I also did a test with an unvalid formula {A v B, ¬B, A} wixh follows the same process:</b></p>
 
 <img src="InvalidEx.JPG">
 
