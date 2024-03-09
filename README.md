@@ -42,7 +42,7 @@ The parse_formula_input function is responsible for extracting clauses and liter
 # 4- User Friendy Interface: 
 In our program, I used Tkinter to create a graphical user interface. It includes entry fields for formula input, a submit button to trigger the resolution, and a label to display the result. Additionally, there's a button to switch between English and French languages.
 
-
+<img src="InvalidEx.JPG">
 
 # Test The Algorithm
 
