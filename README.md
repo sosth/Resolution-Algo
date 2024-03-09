@@ -6,3 +6,4 @@ The resolution algorithm is a method used in propositional logic to determine wh
 -Supports both English and French languages. 
 -Validates logical formulas using the resolution method.
 -Provides feedback on whether the formula is valid or invalid.
+![InvalidEx](https://github.com/sosth/Resolution-Algo/assets/91484223/fc4b99cd-ecad-46fe-ba30-7ca53b0ecfd0)
