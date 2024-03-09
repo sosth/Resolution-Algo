@@ -46,38 +46,39 @@ In our program, I used Tkinter to create a graphical user interface. It includes
 
 <p>1-Let's test the resolution solver with a specific example formula to observe how it determines the validity of the formula with the example formula {A v B}:</p>
 The output given by the code after submitting this formula is <b>Valid</b>. To understand this result, I am going to use the truth table: 
-<p><i>Truth Values of Variables:</i> We have two variables: A and B. Each variable can take on two truth values: True (T) or False (F).</p>
-<p><i>Constructing the Truth Table:</i> We enumerate all possible combinations of truth values for variables A and B. There are 2^2 = 4 possible combinations.</p>
-<p><i>Evaluating the Formula:</i> For each combination of truth values, we evaluate the formula {A v B}.</p>
-<p><i>Determining the Result:</i> The result of the formula {A v B} depends on the truth values of A and B. The formula evaluates to True if at least one of A or B is True. Otherwise, it evaluates to False.</p>
+<p><i><b>-Truth Values of Variables:</b></i> We have two variables: A and B. Each variable can take on two truth values: True (T) or False (F).</p>
+<p><i><b>-Constructing the Truth Table:</b></i> We enumerate all possible combinations of truth values for variables A and B. There are 2^2 = 4 possible combinations.</p>
+<p><i><b>-Evaluating the Formula:</b></i> For each combination of truth values, we evaluate the formula {A v B}.</p>
+<p><i><b>-Determining the Result:</b></i> The result of the formula {A v B} depends on the truth values of A and B. The formula evaluates to True if at least one of A or B is True. Otherwise, it evaluates to False.</p>
 In the truth table above: When both A and B are False, the formula evaluates to False. When A is False and B is True, or when A is True and B is False, the formula evaluates to True. When both A and B are True, the formula evaluates to True.
-<table>
-        <tr>
-            <th>A</th>
-            <th>B</th>
-            <th>A v B</th>
-        </tr>
-        <tr>
-            <td>False</td>
-            <td>False</td>
-            <td>False</td>
-        </tr>
-        <tr>
-            <td>False</td>
-            <td>True</td>
-            <td>True</td>
-        </tr>
-        <tr>
-            <td>True</td>
-            <td>False</td>
-            <td>True</td>
-        </tr>
-        <tr>
-            <td>True</td>
-            <td>True</td>
-            <td>True</td>
-        </tr>
-    </table>
+    <table>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>A v B</th>
+            </tr>
+            <tr>
+                <td>False</td>
+                <td>False</td>
+                <td>False</td>
+            </tr>
+            <tr>
+                <td>False</td>
+                <td>True</td>
+                <td>True</td>
+            </tr>
+            <tr>
+                <td>True</td>
+                <td>False</td>
+                <td>True</td>
+            </tr>
+            <tr>
+                <td>True</td>
+                <td>True</td>
+                <td>True</td>
+            </tr>
+        </table>
+        
 ![validEx](https://github.com/sosth/Resolution-Algo/assets/91484223/94749195-17cd-4bd3-8a7e-1eab0f680920)
 
 I also did a test with an unvalid formula {A v B, ¬B, A} wixh follows the same process:
